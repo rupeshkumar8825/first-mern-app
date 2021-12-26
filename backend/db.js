@@ -14,7 +14,7 @@ const mongoose = require("mongoose");
 //     console.log(`no connection`);
 // });
 
-mongoose.connect("mongodb://localhost:27017/notebook-database").then(() => {
+mongoose.connect("mongodb://localhost:27017/student-notebook").then(() => {
     console.log("connection successfull for the notebook database");
 }).catch((e) => {
     console.log("no connection");
